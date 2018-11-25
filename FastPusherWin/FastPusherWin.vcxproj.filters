@@ -30,6 +30,9 @@
     <ClInclude Include="FastPusherWin.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="CFastFFGrabdesktop.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="FastPusherWin.cpp">
@@ -39,6 +42,9 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CFastFFGrabdesktop.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

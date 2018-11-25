@@ -185,6 +185,7 @@
     </ResourceCompile>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="CFastFFGrabdesktop.h" />
     <ClInclude Include="FastPusherWin.h" />
     <ClInclude Include="FastPusherWinDlg.h" />
     <ClInclude Include="Resource.h" />
@@ -192,6 +193,7 @@
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="CFastFFGrabdesktop.cpp" />
     <ClCompile Include="FastPusherWin.cpp" />
     <ClCompile Include="FastPusherWinDlg.cpp" />
     <ClCompile Include="stdafx.cpp">
