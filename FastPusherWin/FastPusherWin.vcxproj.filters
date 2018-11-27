@@ -30,7 +30,13 @@
     <ClInclude Include="FastPusherWin.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="CFastFFGrabdesktop.h">
+    <ClInclude Include="JwGrabDesktopDevice.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="JwCameraDevice.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="FastEncoder.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
@@ -44,7 +50,13 @@
     <ClCompile Include="stdafx.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="CFastFFGrabdesktop.cpp">
+    <ClCompile Include="JwGrabDesktopDevice.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="JwCameraDevice.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="FastEncoder.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

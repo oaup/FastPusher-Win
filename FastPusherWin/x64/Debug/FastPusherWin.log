@@ -1,3 +1,95 @@
-﻿  CFastFFGrabdesktop.cpp
-d:\vs\ffmpeg-4.1-win64-dev\include\libavutil\rational.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
-  FastPusherWin.vcxproj -> D:\vs\FastPusher-Win\x64\Debug\FastPusherWin.exe
+﻿  stdafx.cpp
+  FastPusherWin.cpp
+  FastPusherWinDlg.cpp
+  JwCameraDevice.cpp
+d:\vs\fastpusher-win\fastpusherwin\jwcameradevice.cpp(118): warning C4305: “return”: 从“int”到“bool”截断
+d:\vs\fastpusher-win\fastpusherwin\jwcameradevice.cpp(125): warning C4305: “return”: 从“int”到“bool”截断
+d:\vs\fastpusher-win\fastpusherwin\jwcameradevice.cpp(128): warning C4018: “<”: 有符号/无符号不匹配
+d:\vs\fastpusher-win\fastpusherwin\jwcameradevice.cpp(137): warning C4305: “return”: 从“int”到“bool”截断
+d:\vs\fastpusher-win\fastpusherwin\jwcameradevice.cpp(144): warning C4305: “return”: 从“int”到“bool”截断
+d:\vs\fastpusher-win\fastpusherwin\jwcameradevice.cpp(149): warning C4305: “return”: 从“int”到“bool”截断
+d:\vs\fastpusher-win\fastpusherwin\jwcameradevice.cpp(159): warning C4305: “return”: 从“int”到“bool”截断
+d:\vs\fastpusher-win\fastpusherwin\jwcameradevice.cpp(169): warning C4305: “return”: 从“int”到“bool”截断
+d:\vs\fastpusher-win\fastpusherwin\jwcameradevice.cpp(206): warning C4305: “return”: 从“int”到“bool”截断
+  JwGrabDesktopDevice.cpp
+d:\vs\fastpusher-win\fastpusherwin\jwgrabdesktopdevice.cpp(120): warning C4018: “<”: 有符号/无符号不匹配
+  正在生成代码...
+JwCameraDevice.obj : error LNK2019: 无法解析的外部符号 av_malloc，该符号在函数 "public: virtual bool __cdecl CJwCameraDevice::Open(void)" (?Open@CJwCameraDevice@@UEAA_NXZ) 中被引用
+JwGrabDesktopDevice.obj : error LNK2001: 无法解析的外部符号 av_malloc
+JwCameraDevice.obj : error LNK2019: 无法解析的外部符号 av_free，该符号在函数 "public: virtual bool __cdecl CJwCameraDevice::Open(void)" (?Open@CJwCameraDevice@@UEAA_NXZ) 中被引用
+JwGrabDesktopDevice.obj : error LNK2001: 无法解析的外部符号 av_free
+JwCameraDevice.obj : error LNK2019: 无法解析的外部符号 av_dict_set，该符号在函数 "void __cdecl show_dshow_device(void)" (?show_dshow_device@@YAXXZ) 中被引用
+JwCameraDevice.obj : error LNK2019: 无法解析的外部符号 av_frame_alloc，该符号在函数 "public: virtual bool __cdecl CJwCameraDevice::Open(void)" (?Open@CJwCameraDevice@@UEAA_NXZ) 中被引用
+JwGrabDesktopDevice.obj : error LNK2001: 无法解析的外部符号 av_frame_alloc
+JwCameraDevice.obj : error LNK2019: 无法解析的外部符号 avcodec_open2，该符号在函数 "public: virtual bool __cdecl CJwCameraDevice::Open(void)" (?Open@CJwCameraDevice@@UEAA_NXZ) 中被引用
+JwGrabDesktopDevice.obj : error LNK2001: 无法解析的外部符号 avcodec_open2
+JwCameraDevice.obj : error LNK2019: 无法解析的外部符号 avcodec_close，该符号在函数 "public: virtual bool __cdecl CJwCameraDevice::Open(void)" (?Open@CJwCameraDevice@@UEAA_NXZ) 中被引用
+JwGrabDesktopDevice.obj : error LNK2001: 无法解析的外部符号 avcodec_close
+JwCameraDevice.obj : error LNK2019: 无法解析的外部符号 av_free_packet，该符号在函数 "public: virtual bool __cdecl CJwCameraDevice::Open(void)" (?Open@CJwCameraDevice@@UEAA_NXZ) 中被引用
+JwGrabDesktopDevice.obj : error LNK2001: 无法解析的外部符号 av_free_packet
+JwCameraDevice.obj : error LNK2019: 无法解析的外部符号 avcodec_find_decoder，该符号在函数 "public: virtual bool __cdecl CJwCameraDevice::Open(void)" (?Open@CJwCameraDevice@@UEAA_NXZ) 中被引用
+JwGrabDesktopDevice.obj : error LNK2001: 无法解析的外部符号 avcodec_find_decoder
+JwCameraDevice.obj : error LNK2019: 无法解析的外部符号 avcodec_decode_video2，该符号在函数 "public: virtual bool __cdecl CJwCameraDevice::Open(void)" (?Open@CJwCameraDevice@@UEAA_NXZ) 中被引用
+JwGrabDesktopDevice.obj : error LNK2001: 无法解析的外部符号 avcodec_decode_video2
+JwCameraDevice.obj : error LNK2019: 无法解析的外部符号 av_register_all，该符号在函数 "public: virtual bool __cdecl CJwCameraDevice::Open(void)" (?Open@CJwCameraDevice@@UEAA_NXZ) 中被引用
+JwGrabDesktopDevice.obj : error LNK2001: 无法解析的外部符号 av_register_all
+JwCameraDevice.obj : error LNK2019: 无法解析的外部符号 avformat_network_init，该符号在函数 "public: virtual bool __cdecl CJwCameraDevice::Open(void)" (?Open@CJwCameraDevice@@UEAA_NXZ) 中被引用
+JwGrabDesktopDevice.obj : error LNK2001: 无法解析的外部符号 avformat_network_init
+JwCameraDevice.obj : error LNK2019: 无法解析的外部符号 avformat_alloc_context，该符号在函数 "public: virtual bool __cdecl CJwCameraDevice::Open(void)" (?Open@CJwCameraDevice@@UEAA_NXZ) 中被引用
+JwGrabDesktopDevice.obj : error LNK2001: 无法解析的外部符号 avformat_alloc_context
+JwCameraDevice.obj : error LNK2019: 无法解析的外部符号 av_find_input_format，该符号在函数 "public: virtual bool __cdecl CJwCameraDevice::Open(void)" (?Open@CJwCameraDevice@@UEAA_NXZ) 中被引用
+JwGrabDesktopDevice.obj : error LNK2001: 无法解析的外部符号 av_find_input_format
+JwCameraDevice.obj : error LNK2019: 无法解析的外部符号 avformat_open_input，该符号在函数 "public: virtual bool __cdecl CJwCameraDevice::Open(void)" (?Open@CJwCameraDevice@@UEAA_NXZ) 中被引用
+JwGrabDesktopDevice.obj : error LNK2001: 无法解析的外部符号 avformat_open_input
+JwCameraDevice.obj : error LNK2019: 无法解析的外部符号 avformat_find_stream_info，该符号在函数 "public: virtual bool __cdecl CJwCameraDevice::Open(void)" (?Open@CJwCameraDevice@@UEAA_NXZ) 中被引用
+JwGrabDesktopDevice.obj : error LNK2001: 无法解析的外部符号 avformat_find_stream_info
+JwCameraDevice.obj : error LNK2019: 无法解析的外部符号 av_read_frame，该符号在函数 "public: virtual bool __cdecl CJwCameraDevice::Open(void)" (?Open@CJwCameraDevice@@UEAA_NXZ) 中被引用
+JwGrabDesktopDevice.obj : error LNK2001: 无法解析的外部符号 av_read_frame
+JwCameraDevice.obj : error LNK2019: 无法解析的外部符号 avformat_close_input，该符号在函数 "public: virtual bool __cdecl CJwCameraDevice::Open(void)" (?Open@CJwCameraDevice@@UEAA_NXZ) 中被引用
+JwGrabDesktopDevice.obj : error LNK2001: 无法解析的外部符号 avformat_close_input
+JwCameraDevice.obj : error LNK2019: 无法解析的外部符号 sws_freeContext，该符号在函数 "public: virtual bool __cdecl CJwCameraDevice::Open(void)" (?Open@CJwCameraDevice@@UEAA_NXZ) 中被引用
+JwGrabDesktopDevice.obj : error LNK2001: 无法解析的外部符号 sws_freeContext
+JwCameraDevice.obj : error LNK2019: 无法解析的外部符号 sws_getContext，该符号在函数 "public: virtual bool __cdecl CJwCameraDevice::Open(void)" (?Open@CJwCameraDevice@@UEAA_NXZ) 中被引用
+JwGrabDesktopDevice.obj : error LNK2001: 无法解析的外部符号 sws_getContext
+JwCameraDevice.obj : error LNK2019: 无法解析的外部符号 sws_scale，该符号在函数 "public: virtual bool __cdecl CJwCameraDevice::Open(void)" (?Open@CJwCameraDevice@@UEAA_NXZ) 中被引用
+JwGrabDesktopDevice.obj : error LNK2001: 无法解析的外部符号 sws_scale
+JwCameraDevice.obj : error LNK2019: 无法解析的外部符号 avdevice_register_all，该符号在函数 "public: virtual bool __cdecl CJwCameraDevice::Open(void)" (?Open@CJwCameraDevice@@UEAA_NXZ) 中被引用
+JwGrabDesktopDevice.obj : error LNK2001: 无法解析的外部符号 avdevice_register_all
+JwCameraDevice.obj : error LNK2019: 无法解析的外部符号 SDL_GetError，该符号在函数 "public: virtual bool __cdecl CJwCameraDevice::Open(void)" (?Open@CJwCameraDevice@@UEAA_NXZ) 中被引用
+JwGrabDesktopDevice.obj : error LNK2001: 无法解析的外部符号 SDL_GetError
+JwCameraDevice.obj : error LNK2019: 无法解析的外部符号 SDL_CreateThread，该符号在函数 "public: virtual bool __cdecl CJwCameraDevice::Open(void)" (?Open@CJwCameraDevice@@UEAA_NXZ) 中被引用
+JwGrabDesktopDevice.obj : error LNK2001: 无法解析的外部符号 SDL_CreateThread
+JwCameraDevice.obj : error LNK2019: 无法解析的外部符号 SDL_SetVideoMode，该符号在函数 "public: virtual bool __cdecl CJwCameraDevice::Open(void)" (?Open@CJwCameraDevice@@UEAA_NXZ) 中被引用
+JwGrabDesktopDevice.obj : error LNK2001: 无法解析的外部符号 SDL_SetVideoMode
+JwCameraDevice.obj : error LNK2019: 无法解析的外部符号 SDL_CreateYUVOverlay，该符号在函数 "public: virtual bool __cdecl CJwCameraDevice::Open(void)" (?Open@CJwCameraDevice@@UEAA_NXZ) 中被引用
+JwGrabDesktopDevice.obj : error LNK2001: 无法解析的外部符号 SDL_CreateYUVOverlay
+JwCameraDevice.obj : error LNK2019: 无法解析的外部符号 SDL_LockYUVOverlay，该符号在函数 "public: virtual bool __cdecl CJwCameraDevice::Open(void)" (?Open@CJwCameraDevice@@UEAA_NXZ) 中被引用
+JwGrabDesktopDevice.obj : error LNK2001: 无法解析的外部符号 SDL_LockYUVOverlay
+JwCameraDevice.obj : error LNK2019: 无法解析的外部符号 SDL_UnlockYUVOverlay，该符号在函数 "public: virtual bool __cdecl CJwCameraDevice::Open(void)" (?Open@CJwCameraDevice@@UEAA_NXZ) 中被引用
+JwGrabDesktopDevice.obj : error LNK2001: 无法解析的外部符号 SDL_UnlockYUVOverlay
+JwCameraDevice.obj : error LNK2019: 无法解析的外部符号 SDL_DisplayYUVOverlay，该符号在函数 "public: virtual bool __cdecl CJwCameraDevice::Open(void)" (?Open@CJwCameraDevice@@UEAA_NXZ) 中被引用
+JwGrabDesktopDevice.obj : error LNK2001: 无法解析的外部符号 SDL_DisplayYUVOverlay
+JwCameraDevice.obj : error LNK2019: 无法解析的外部符号 SDL_WM_SetCaption，该符号在函数 "public: virtual bool __cdecl CJwCameraDevice::Open(void)" (?Open@CJwCameraDevice@@UEAA_NXZ) 中被引用
+JwGrabDesktopDevice.obj : error LNK2001: 无法解析的外部符号 SDL_WM_SetCaption
+JwCameraDevice.obj : error LNK2019: 无法解析的外部符号 SDL_WaitEvent，该符号在函数 "public: virtual bool __cdecl CJwCameraDevice::Open(void)" (?Open@CJwCameraDevice@@UEAA_NXZ) 中被引用
+JwGrabDesktopDevice.obj : error LNK2001: 无法解析的外部符号 SDL_WaitEvent
+JwCameraDevice.obj : error LNK2019: 无法解析的外部符号 SDL_PushEvent，该符号在函数 "int __cdecl sfp_refresh_thread(void *)" (?sfp_refresh_thread@@YAHPEAX@Z) 中被引用
+JwGrabDesktopDevice.obj : error LNK2001: 无法解析的外部符号 SDL_PushEvent
+JwCameraDevice.obj : error LNK2019: 无法解析的外部符号 SDL_Delay，该符号在函数 "int __cdecl sfp_refresh_thread(void *)" (?sfp_refresh_thread@@YAHPEAX@Z) 中被引用
+JwGrabDesktopDevice.obj : error LNK2001: 无法解析的外部符号 SDL_Delay
+JwCameraDevice.obj : error LNK2019: 无法解析的外部符号 SDL_Init，该符号在函数 "public: virtual bool __cdecl CJwCameraDevice::Open(void)" (?Open@CJwCameraDevice@@UEAA_NXZ) 中被引用
+JwGrabDesktopDevice.obj : error LNK2001: 无法解析的外部符号 SDL_Init
+JwCameraDevice.obj : error LNK2019: 无法解析的外部符号 SDL_Quit，该符号在函数 "public: virtual bool __cdecl CJwCameraDevice::Open(void)" (?Open@CJwCameraDevice@@UEAA_NXZ) 中被引用
+JwGrabDesktopDevice.obj : error LNK2001: 无法解析的外部符号 SDL_Quit
+JwGrabDesktopDevice.obj : error LNK2019: 无法解析的外部符号 SDL_GetVideoInfo，该符号在函数 "public: virtual bool __cdecl CJwGrabDesktopDevice::Open(void)" (?Open@CJwGrabDesktopDevice@@UEAA_NXZ) 中被引用
+D:\vs\FastPusher-Win\SDK\ffmpeg\lib\avcodec.lib : warning LNK4272: 库计算机类型“x86”与目标计算机类型“x64”冲突
+D:\vs\FastPusher-Win\SDK\ffmpeg\lib\avformat.lib : warning LNK4272: 库计算机类型“x86”与目标计算机类型“x64”冲突
+D:\vs\FastPusher-Win\SDK\ffmpeg\lib\avutil.lib : warning LNK4272: 库计算机类型“x86”与目标计算机类型“x64”冲突
+D:\vs\FastPusher-Win\SDK\ffmpeg\lib\avdevice.lib : warning LNK4272: 库计算机类型“x86”与目标计算机类型“x64”冲突
+D:\vs\FastPusher-Win\SDK\ffmpeg\lib\avfilter.lib : warning LNK4272: 库计算机类型“x86”与目标计算机类型“x64”冲突
+D:\vs\FastPusher-Win\SDK\ffmpeg\lib\postproc.lib : warning LNK4272: 库计算机类型“x86”与目标计算机类型“x64”冲突
+D:\vs\FastPusher-Win\SDK\ffmpeg\lib\swresample.lib : warning LNK4272: 库计算机类型“x86”与目标计算机类型“x64”冲突
+D:\vs\FastPusher-Win\SDK\ffmpeg\lib\swscale.lib : warning LNK4272: 库计算机类型“x86”与目标计算机类型“x64”冲突
+D:\vs\FastPusher-Win\SDK\ffmpeg\lib\SDL.lib : warning LNK4272: 库计算机类型“x86”与目标计算机类型“x64”冲突
+D:\vs\FastPusher-Win\SDK\ffmpeg\lib\SDLmain.lib : warning LNK4272: 库计算机类型“x86”与目标计算机类型“x64”冲突
+D:\vs\FastPusher-Win\x64\Debug\FastPusherWin.exe : fatal error LNK1120: 35 个无法解析的外部命令
